@@ -1,323 +1,420 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SEPT LIEUX</title>
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="color/default.css" rel="stylesheet" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Album example · Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-muted">Add some information about the album below, the author, or any other
-                            background context. Make it a few sentences long so folks can pick up some informative
-                            tidbits. Then, link them off to some social networking sites or contact information.</p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-            <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
-                        viewBox="0 0 24 24" focusable="false">
-                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                        <circle cx="12" cy="13" r="4" /></svg>
-                    <strong>Album</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <main role="main">
-
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Album example</h1>
-                <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                    creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                    entirely.</p>
-                <p>
-                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
-            </div>
-        </section>
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <footer class="text-muted">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load"></div>
+    </div>
+    <!-- Section: intro -->
+    <section id="intro" class="intro">
+      <div class="slogan">
+        <a href="index.html"><img src="img/logo.png" alt=""/></a>
+      </div>
+      <div class="page-scroll">
+        <a href="#home">
+          <i class="fa fa-angle-down fa-5x animated"></i>
+        </a>
+      </div>
+    </section>
+    <!-- /Section: intro -->
+    <!-- Navigation -->
+    <div id="navigation">
+      <nav class="navbar navbar-custom" role="navigation">
         <div class="container">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
-                    href="/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#menu"
+                >
+                  <i class="fa fa-bars"></i>
+                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#intro">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#items">ALL ITEMS</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
+                </ul>
+              </div>
+              <!-- /.Navbar-collapse -->
+            </div>
+          </div>
         </div>
+        <!-- /.container -->
+      </nav>
+    </div>
+    <!-- /Navigation -->
+    <!-- Section: home -->
+    <section id="home" class="home-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="section-heading text-center">
+              <h2>Shoe perfume SEPT LIEUX</h2>
+              <p>シューパフューム「セット・リュ」</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/img1.jpg" class="img-responsive img-rounded" alt="" />
+          </div>
+          <div class="col-md-6">
+            <p>日本に住んでいるからこそ、靴のエチケットにこだわりたい。</p>
+            <p>
+              大好きなスニーカーや毎日使う革靴。おうちに帰ったら、一日中履いてお世話になった靴たちにスプレーを。
+            </p>
+            <p>
+              次の日の朝は、爽やかにお出かけ。日々のケアがあれば、靴を脱ぐような場面があってもいつだって安心です。
+            </p>
+            <p>
+              調香師（Nez）によって調合されたフランス産の天然香料を使用、<br />
+              消臭抗菌機能のあるローズマリーの植物抽出物を配合した靴／スニーカー専用の香水です。
+            </p>
+            <p>使われている原料は100%天然成分です。</p>
+            <p>
+              <dl class="dl-horizontal">
+                <dt>原産国</dt>
+                <dd>フランス</dd>
+                <dt>品名・用途</dt>
+                <dd>靴用香水（消臭抗菌スプレー）</dd>
+                <dt>成分</dt>
+                <dd>エタノール、水、天然香料、植物抽出物</dd>
+              </dl>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: home -->
+    <!-- Section: about -->
+    <section id="about" class="home-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="section-heading text-center">
+              <h2>ABOUT</h2>
+              <p>靴専用香水「セット・リュ」のこと</p>
+            </div>
+            <div class="marginbot-50">
+              <h4>＜靴のプロ x 香りのプロ＞</h4>
+              <p>
+                長年「靴」のお仕事をしてきたプロと、「香り」の本場フランスのプロが共同開発した「靴専用」の香水です
+              </p>
+            </div>
+            <div class="marginbot-50">
+              <h4>＜100%天然成分＞</h4>
+              <p>調香師(Nez)によって調合されたフランス産の天然香料を使用。</p>
+              <p>
+                抗菌・消臭機能のあるローズマリーの植物抽出物を配合しました。
+              </p>
+              <p>靴専用。でも使われている原料はこだわりの100%天然成分です。</p>
+            </div>
+            <div class="marginbot-50">
+              <h4>＜７つの香り＞</h4>
+              <p>
+                SEPT LIEUX
+                （セット・リュ）は、「７つの場所」を意味するフランス語。
+              </p>
+              <p>
+                ７種類の香りから、その日の行き先や靴の種類に合わせて選んで楽しむことも。
+              </p>
+            </div>
+            <div class="marginbot-50">
+              <h4>＜香りの名前たち＞</h4>
+              <p>
+                それぞれの香りには、フランスの著名な詩人たちの作品からインスピレーションを得た名前を付けました。
+              </p>
+              <p>
+                <ul class="list-unstyled">
+                  <li>「薔薇の花を見に行こう」</li>
+                  <li>「オレンジのような青」</li>
+                  <li>「苦い理想」</li>
+                  <li>「フランスのバラード」</li>
+                  <li>「牡丹の花びら」</li>
+                  <li>「海の叫び」</li>
+                  <li>「森の中で」</li>
+                </ul>                
+              </p>
+              <p>どれも素敵な名前です。</p>
+            </div>
+            <div class="marginbot-50">
+              <h4>＜使い方＞</h4>
+              <p>靴の中敷に、シュッと吹きかけしっかり乾燥させます。</p>
+              <p>帰宅後にひと吹きして、休ませてあげるといいでしょう。</p>
+              <p>次の日の朝には爽やかにお出かけできます。</p>
+              <p>＊ヌメ革など、素材によりシミになる場合があります＊</p>
+              <p>目立たないところで試してからご使用ください</p>
+              <p>いろんな香りでエチケットを楽しんで。</p>
+              <p>セット・リュが、毎日の外出を特別なものに演出してくれます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: about -->
+    <!-- Section: items -->
+    <section id="items" class="home-section text-center bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="section-heading">
+              <h2>ALL ITEMS</h2>
+              <p>商品一覧</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a
+                href="https://ageru.shop-pro.jp/?pid=143672153"
+                title="BLEUE COMME UNE ORANGE"
+                target="_blank"
+                ><img src="img/items/1.png" class="img-responsive" alt="img"
+              /></a>
+              <h4>BLEUE COMME UNE ORANGE</h4>
+              <p>オレンジのような青</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a
+                href="https://ageru.shop-pro.jp/?pid=143673313"
+                title="L’APPEL DU LARGE"
+                target="_blank"
+                ><img src="img/items/2.png" class="img-responsive" alt="img"
+              /></a>
+              <h4>L’APPEL DU LARGE</h4>
+              <p>海の呼び声</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a href="https://ageru.shop-pro.jp/?pid=143673363" title="PÉTALES DE PIVOINE" target="_blank"><img
+                  src="img/items/3.png" class="img-responsive" alt="img" /></a>
+              <h4>PÉTALES DE PIVOINE</h4>
+              <p>牡丹の花びら</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a
+                href="https://ageru.shop-pro.jp/?pid=143673413"
+                title="IDÉAL AMER"
+                target="_blank"
+                ><img src="img/items/4.png" class="img-responsive" alt="img"
+              /></a>
+              <h4>IDÉAL AMER</h4>
+              <p>苦い理想</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+          <div class="clearfix hidden-md"></div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a
+                href="https://ageru.shop-pro.jp/?pid=143673459"
+                title="ALLONS VOIR SI LA ROSE"
+                target="_blank"
+                ><img src="img/items/5.png" class="img-responsive" alt="img"
+              /></a>
+              <h4>ALLONS VOIR SI LA ROSE</h4>
+              <p>薔薇を見に行こう</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a
+                href="https://ageru.shop-pro.jp/?pid=143673491"
+                title="BALLADES FRANÇAISES"
+                target="_blank"
+                ><img src="img/items/6.png" class="img-responsive" alt="img"
+              /></a>
+              <h4>BALLADES FRANÇAISES</h4>
+              <p>フランスのバラード</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+              <a
+                href="https://ageru.shop-pro.jp/?pid=143673604"
+                title="DANS LA FORÊT"
+                target="_blank"
+                ><img src="img/items/7.png" class="img-responsive" alt="img"
+              /></a>
+              <h4>DANS LA FORÊT</h4>
+              <p>森の中で</p>
+              <span>6,200円(税抜)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: items -->
+    <!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+      <div class="heading-contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-offset-2">
+              <div class="section-heading">
+                <h2>CONTACT</h2>
+                <p>
+                  お問い合わせ
+                </p>
+              </div>
+              <p>
+                商品に関する事やご意見ご感想、お問い合わせなど、こちらのフォームよりお気軽にお尋ねください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-offset-2">
+            <div class="form-wrapper marginbot-50">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <form
+                name="contact-form"
+                class="contactForm"
+                method="POST"
+                role="form"
+                netlify
+              >
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="お名前"
+                    data-rule="minlen:4"
+                    data-msg="４文字以上入力してください"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="メールアドレス"
+                    data-rule="email"
+                    data-msg="正しいメールアドレスを入力してください"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="お問い合わせタイトル"
+                    data-rule="minlen:4"
+                    data-msg="８文字以上入力してください"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    data-rule="required"
+                    data-msg="本文を入力してください"
+                    placeholder="お問い合わせ内容"
+                  ></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-skin btn-block"
+                    id="btnContactUs"
+                  >
+                    送信
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: contact -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12">
+            <p>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/septlieux/"
+                style="margin-right: 10px;"
+              >
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/sept_lieux/"
+                style="margin-right: 10px;"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="mailto:contact@sept-lieux.com">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </p>
+            <p>Copyright&copy; SEPT LIEUX / Shin Inc. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.tile.min.js"></script>
+    <script src="js/contactform.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
